@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilo base para todos los bloques */
+.box {
+  border: 2px solid black;
+}
+
+/* Header con los dos bloques rojos */
+header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.red {
+  background-color: #ff4d4d;
+  height: 100px;
+  width: 50%;
+}
+
+/* Main content con bloques naranja y púrpura */
+main {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.orange {
+  background-color: #ffa500;
+  width: 60%;
+  height: 320px;
+}
+
+.right-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.purple {
+  background-color: #800080;
+  height: 155px;
+}
+
+
+footer {
+  width: 100%;
+}
+
+.teal {
+  background-color: #008080;
+  height: 110px;
+}
+
+/* Aplicamos box-sizing a todos los elementos */
+* {
+  box-sizing: border-box;
+}
